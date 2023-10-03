@@ -20,7 +20,7 @@ public class ProductoController {
 		model.addAttribute("lstProductos", repo.findAll());
 		return "listado";
 	}
-		@GetMapping("/cargar")
+		@GetMapping("/")
 		public String cargarPag(Model model) {
 			model.addAttribute("producto", new Producto());
 			return "crudProductos";
