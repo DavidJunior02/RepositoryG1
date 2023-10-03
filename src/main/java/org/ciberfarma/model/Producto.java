@@ -22,6 +22,7 @@ public class Producto {
 	@Column(name="pre_prod")
 	private double precio;
 	
+	
 	private int idCategoria;
 	
 	@Column(name="est_prod")
